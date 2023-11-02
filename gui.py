@@ -1,4 +1,4 @@
-import pandas as pd
+from pandas import read_csv, get_dummies
 from PySide6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout,
                                QHBoxLayout, QPushButton, QLabel,
                                QFileDialog, QGroupBox, QTableWidget,
@@ -140,13 +140,13 @@ class ImageTaggingApp(QMainWindow):
 
         if file_name:
             # Read the CSV using pandas
-            df = pd.read_csv(file_name)
+            df = read_csv(file_name)
 
             # Check if 'Classes' column exists
             if 'Tags' in df.columns:
                 # Split the 'Classes' column based on space
                 all_tags = df['Tags'].str.split(' ', expand=True).stack()
-                df_encoded = pd.get_dummies(all_tags, prefix='').groupby(level=0).sum()
+                df_encoded = get_dummies(all_tags, prefix='').groupby(level=0).sum()
 
                 # Merge the encoded tags back to the original dataframe
                 df = df.join(df_encoded)
