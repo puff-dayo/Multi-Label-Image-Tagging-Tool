@@ -1,7 +1,5 @@
 # Multi Label Image Tagging Tool
 
-![Tool Preview](https://github.com/puff-dayo/Multi-Label-Image-Tagging-Tool/blob/af1b8834005b1c2291377b409284f80099b9ff92/images/1.png)
-
 A ~~robust~~ and user-friendly GUI application for tagging images with multiple labels. Designed with PySide6 and backed by Pandas, this python tool streamlines the image tagging process for dataset creation.
 
 It simplifies the dataset construction for MLIC (Multi Label Image Classification) tasks.
@@ -16,6 +14,11 @@ Version 1 (Last update: 2/11/2023)
 - **Export & Import**: Export your work to a CSV, and import back whenever needed.
 - **Night Mode**: PySide6 handles it automatically.
 - **0/1 Encoding**: Encode tag data to binary for machine learning purposes.
+
+
+## Screenshots
+
+![Tool Preview](https://github.com/puff-dayo/Multi-Label-Image-Tagging-Tool/blob/af1b8834005b1c2291377b409284f80099b9ff92/images/1.png)
 
 ![Coding Preview](https://github.com/puff-dayo/Multi-Label-Image-Tagging-Tool/blob/af1b8834005b1c2291377b409284f80099b9ff92/images/2.png)
 
