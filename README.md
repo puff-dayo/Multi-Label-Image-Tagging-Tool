@@ -10,7 +10,7 @@ Version 1 (Last update: 2/11/2023)
 
 - **Load Multiple Images**: Browse and load an entire directory of images with ease.
 - **Intuitive Tagging System**: Add, delete, and manage tags for each image.
-- **Keyboard Shortcuts**: Quick navigation through images with keyboard shortcuts.
+- **Keyboard Shortcuts**: Quick navigation through images(A/D) and tags(Up/Down), and toggle tags(Space) with keyboard shortcuts.
 - **Export & Import**: Export your work to a CSV, and import back whenever needed.
 - **Night Mode**: PySide6 handles it automatically.
 - **0/1 Encoding**: Encode tag data to binary for machine learning purposes.
